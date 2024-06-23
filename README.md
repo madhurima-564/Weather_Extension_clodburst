@@ -47,3 +47,31 @@ cloudburst-extension/
 ## Usage
 1. Click on the Cloudburst icon in the Chrome toolbar to open the popup.
 2. Enter the name of the city in the search bar and click "Search".
+
+## Here are some demo images:
+
+### Image 1: 
+<img src="Demo_Images/extension.png" alt="Demo" width="400"/>
+
+
+### Image 2:
+<img src="Demo_Images/extension1.png" alt="Demo" width="400"/>
+
+### Image 3:
+<img src="Demo_Images/extension2.png" alt="Demo" height="375"/>
+
+### Image 4:
+<img src="Demo_Images/extension3.png" alt="Demo"  height="400"/>
+
+### Image 5:
+<img src="Demo_Images/extension4.png" alt="Demo"  height="400"/>
+
+### Image 6:
+<img src="Demo_Images/extension5.png" alt="Demo"  height="400"/>
+
+
+
+
+
+
+
