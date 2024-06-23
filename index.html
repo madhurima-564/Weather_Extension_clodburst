@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloudburst</title>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <input type="text" id="city-input" placeholder="Enter city name">
+      <button id="search-button">Search</button>
+    </div>
+    <div class="weather-card" id="weather-card" style="display: none;">
+      <div class="weather-info">
+        
+        <div class="search-again">
+          <a href="weather.html">Search Again</a>
+        </div>
+        <h2 class="city-name">City Name</h2>
+        <p class="date">Day | Date | Time</p>
+        <div class="temperature">
+          <span class="temp-value">20</span><sup>°C</sup>
+        </div>
+        <div class="additional-info">
+          <div class="info">
+            <span class="label">Min</span>
+            <span class="value">16°C</span>
+          </div>
+          <div class="info">
+            <span class="label">Max</span>
+            <span class="value">25°C</span>
+          </div>
+        </div>
+        <div class="weather-info weather-description">
+          <span class="weather-description"></span>
+        </div>
+        <div class="weather-info weather">
+          <div class="info-box wind-info"><span class="wind-info"></span></div>
+          <div class="info-box humidity-info"><span class="humidity-info"></span></div>  
+          <div class="info-box visibility-info"><span class="visibility-info"></span> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Cloudburst",
+    "version": "1.0",
+    "description": "Get current weather information for any city.",
+    "host_permissions": [
+        "https://api.openweathermap.org/*",
+        "https://api.unsplash.com/*"
+      ],
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icons/weather.png",
+        "48": "icons/weather.png",
+        "128": "icons/weather.png"
+      }
+    },
+    "icons": {
+      "16": "icons/weather.png",
+      "48": "icons/weather.png",
+      "128": "icons/weather.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+    
+  }
+  
